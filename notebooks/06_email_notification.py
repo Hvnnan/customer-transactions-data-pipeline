@@ -124,11 +124,11 @@ execution_timestamp = (
 # Generate Notification Message
 # =====================================================
 
-email_subject = f"[{final_status}] Enterprise Financial Pipeline - {pipeline_name}"
+email_subject = f"[{final_status}] Customer Transactions Data Pipeline - {pipeline_name}"
 
 email_body = f"""
 ========================================================
-Enterprise Financial Pipeline Notification
+Customer Transactions Data Pipeline
 ========================================================
 
 Pipeline Name       : {pipeline_name}
