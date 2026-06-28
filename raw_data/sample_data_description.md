@@ -32,14 +32,13 @@ The original dataset contains **50,000 synthetic banking transaction records** r
 
 The original dataset is **not included** in this repository.
 
-Please download the dataset directly from Kaggle using the link above and place the CSV file inside the Databricks Landing Volume before executing the pipeline.
+To run this project:
+
+1. Download the dataset from Kaggle.
+2. Upload the CSV file to the Databricks Landing Volume:
+   /Volumes/workspace/landing/raw_files/
+3. Execute the Databricks Workflow or run the notebooks sequentially.
 
 Expected input file:
 
-```text
 bank_transactions_data_2_augmented_clean_2.csv
-```
-
-## License
-
-Please refer to the original Kaggle dataset page for licensing terms and usage restrictions.
